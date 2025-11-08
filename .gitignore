@@ -1,0 +1,77 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+
+# Build output
+/bundle/
+/dist/
+/build/
+
+# React Native / Android
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/**/build/
+
+# Android native caches / keys
+**/*.keystore
+**/*.jks
+
+# iOS
+/ios/Pods/
+/ios/build/
+/ios/DerivedData/
+/*.xcuserdata
+**/xcuserdata/
+
+# Xcode
+*.xcodeproj/project.xcworkspace
+!default.xcworkspace
+
+# CocoaPods
+# (keep Podfile.lock if you want reproducible iOS installs)
+# /ios/Podfile.lock
+
+# Metro / packager / watchman
+/.metro-cache
+/.packager
+/metro-cache
+.watchman*
+
+# Misc IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs & coverage
+logs/
+*.log
+coverage/
+.nyc_output/
+
+# Expo
+.expo/
+.expo-shared/
+
+# TypeScript build artefacts
+*.tsbuildinfo
+
+# Misc
+.cache/
